@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
@@ -11,7 +11,7 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie."/>
       <h2>Open the Console to See What's Happening</h2>
     </header>
 
@@ -19,8 +19,13 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML stands for hyper text markup language and is the structure of webpages!</li>
+          <li>HTML, head, title and body tags make up the basic structure of a HTML document.</li>
+          <li>The head element contains information about the webpage, such as links to css/javascript files associated with the webpage.</li>
+          <li>The body element represents the visible content shown to the user, and contains most of the information on the webpage.</li>
+          <li>Text can be styled in HTML using b for <b>bold</b>, i for <i>italics</i>, em for <em>emphasizing</em> and u for <u>underlining</u> tags.</li>
+          <li>Text headings can be created in 6 different sizes by using the h1 to h6 tags.</li>
+          <li>Paragraphs can be defined on web pages using the p tag.</li>
           <br>
         </ul>
       </section>
@@ -28,9 +33,13 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS stands for cascading style sheet</li>
+          <li>CSS stands for cascading style sheet, and is how webpages are styled!</li>
+          <li>CSS files are linked in the <b>head</b> element of the HTML document by using link and href attributes.</li>
+          <code>link rel="stylesheet" href="./assets/style.css"</code>
+          <li>CSS uses selectors to target elements on an HTML page to style them. Some examples of CSS selectors are type selectors, class selectors and id selectors.</li>
           <li>Margin indicates how much space we want around the outside of an element.</li>
           <li>Padding indicates how much space we want around the content inside of an element.</li>
+          <li>Commenting out CSS code is done like this: /*this code has been commented out*/</li>
           <br>
         </ul>
       </section>
@@ -38,9 +47,15 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Git is version control</li>
+          <li>Git is version control software!</li>
+          <li>git clone enter-ssh-link-from-github: This git command will clone a remote repository from GitHub to our local machine.</li>
           <li>git status: This git command checks what branch we are currently on.</li>
-          <li>git checkout -b branch-name: This git command creates a new branch and switches to it.</li>
+          <li>git branch: This git command will output a list of available branches.</li>
+          <li>git checkout -b new-branch-name: This git command creates a new branch and switches to it.</li>
+          <li>git add -A: This git command adds ALL new changes to the staging area.</li>
+          <li>git commit -m "message here": This git command commits our new changes with a message.</li>
+          <li>git pull origin branch-name: This git command pulls down any changes made to the remote branch on GitHub.</li>
+          <li>git push origin branch-name: This git command pushes the changes we made on our local repository to the remote branch on GitHub.</li>
           <br>
         </ul>
       </section>
@@ -48,7 +63,21 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Javascript enables functionality and interation with web applications.</li>
+          <li>Javascript enables functionality and interation with web applications!</li>
+          <li>Each line of Javascript code must end with a semi colon (;).</li>
+          <li>Javascript is read from top to bottom, this is called control flow! Code will execute from the first statement at the top of our .js file, down to the last statement at the bottom.</li>
+          <li>An array is a single variable that is used to hold a group of data. Generally, this data is related in some way. Arrays can store different types of data, such as strings (text), numbers and boolean values (true, false).</li>
+          <li>When storing strings inside of an array, the data must be surrounded by quotation marks. For example, circle would be written as “circle”. Numbers and boolean value data types do not need to be surrounded by quotation marks when stored in an array.</li>
+          <li>Each item we store in an array, is given a unique identifier called an index. In Javascript, arrays are zero indexed and sequential. This means the first item of the array will always be 0, and the following items increase in increments of 1 each time.</li>
+          <li>We can target an individual data type from an array by calling upon its index. For example, we will target the “triangle” data from the following array by calling upon its index number below.</li>
+          <code>var shapes = [“triangle”, “square”, “circle”];</code>
+          <br>
+          <code>console.log(shapes[0])</code>
+          <li>The result from the above code will log "triangle" to the console.</li>
+          <li>At the most basic level, a function is a set of instructions that tells a computer how to perform a certain task.</li>
+          <li>A function is different from a for loop or conditional statement, because functions do not automatically execute. Instead, functions must be called by name in order to execute it.</li>
+          <li>A functions name is always followed by parentheses (), which includes the parameters of the function.</li>
+          <li>Commenting out Javascript code is done like this: /*this code has been commented out*/</li>
           <br>
         </ul>
       </section>
