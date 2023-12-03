@@ -15,7 +15,7 @@ If you are planning to study these topics yourself and would like a recommendati
 
 ## Credits
 
-Matt Kelly and the University of Adelaide. 
+Matt Kelly and The University of Adelaide. 
 
 ## License
 
