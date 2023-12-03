@@ -8,7 +8,7 @@ function listTopics() {
     }
 }
 
-function selectTopic () {
+function selectTopic() {
     if (randomTopic === 'HTML') {
         console.log("Let's Study HTML!");
     } else if (randomTopic === 'CSS') {
@@ -26,5 +26,5 @@ console.log("Here are the topics we learned through the prework:");
 listTopics()
 
 console.log("Which topic should we study first?");
-selectTopic ()
+selectTopic()
 
